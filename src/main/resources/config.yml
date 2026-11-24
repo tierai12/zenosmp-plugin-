@@ -1,0 +1,16 @@
+# ZenoSkills configuration
+
+# If true, the skill menu re-opens when a player closes it without choosing.
+force-choice: true
+
+# Play the cinematic "Welcome to Zeno SMP" animation for players who have no skill yet.
+intro-animation: true
+
+# Announce in chat when someone awakens a skill.
+broadcast-choice: true
+
+# Multiplies every active-skill cooldown (0.5 = half time, 2.0 = double).
+cooldown-multiplier: 1.0
+
+# Phoenix Soul auto-revive cooldown in seconds.
+phoenix-revive-cooldown-seconds: 600

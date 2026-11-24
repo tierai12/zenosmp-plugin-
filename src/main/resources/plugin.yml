@@ -1,0 +1,15 @@
+name: ZenoSkills
+version: '${project.version}'
+main: com.zenosmp.skills.ZenoSkillsPlugin
+api-version: '1.21'
+author: Zeno SMP
+description: 20 unique skills plus a permission-gated Admin Skill for Zeno SMP.
+commands:
+  skill:
+    description: Open the skill menu, view your skill or cast it
+    usage: /skill [info|use]
+    aliases: [skills, zeno, zenoskills]
+permissions:
+  zenoskills.admin:
+    description: Reset / set player skills and reload the config
+    default: op
